@@ -1,0 +1,409 @@
+[00:00:00] Build started
+[00:00:01] git clone -q --branch=main https://github.com/svetlanarykova/gradle1.3.PostmanEcho.git /home/appveyor/projects/gradle1-3-postmanecho
+[00:00:02] git checkout -qf 99bf925775b5828380bd204013b3f896d265bc96
+[00:00:02] Configuring 'stack'
+[00:00:02] Enabling JDK 11
+[00:00:02] Running "build_script" scripts
+[00:00:02] chmod +x gradlew
+[00:00:02] ./gradlew test --info
+[00:00:02] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+[00:00:02] Downloading https://services.gradle.org/distributions/gradle-7.4-bin.zip
+[00:00:06] ...........10%...........20%...........30%...........40%...........50%...........60%...........70%...........80%...........90%...........100%
+[00:00:08] Initialized native services in: /home/appveyor/.gradle/native
+[00:00:08] Initialized jansi services in: /home/appveyor/.gradle/native
+[00:00:08] 
+[00:00:08] Welcome to Gradle 7.4!
+[00:00:08] 
+[00:00:08] Here are the highlights of this release:
+[00:00:08]  - Aggregated test and JaCoCo reports
+[00:00:08]  - Marking additional test source directories as tests in IntelliJ
+[00:00:08]  - Support for Adoptium JDKs in Java toolchains
+[00:00:08] 
+[00:00:08] For more details see https://docs.gradle.org/7.4/release-notes.html
+[00:00:08] 
+[00:00:08] Removing 0 daemon stop events from registry
+[00:00:08] Starting a Gradle Daemon (subsequent builds will be faster)
+[00:00:08] 
+[00:00:08] 
+[00:00:08] > Starting DaemonStarting process 'Gradle build daemon'. Working directory: /home/appveyor/.gradle/daemon/7.4 Command: /usr/lib/jvm/java-11-openjdk-amd64/bin/java --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.prefs/java.util.prefs=ALL-UNNAMED --add-opens java.prefs/java.util.prefs=ALL-UNNAMED --add-opens java.base/java.nio.charset=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED -XX:MaxMetaspaceSize=256m -XX:+HeapDumpOnOutOfMemoryError -Xms256m -Xmx512m -Dfile.encoding=UTF8 -Duser.country -Duser.language=en -Duser.variant -cp /home/appveyor/.gradle/wrapper/dists/gradle-7.4-bin/c0gwcg53nkjbqw7r0h0umtfvt/gradle-7.4/lib/gradle-launcher-7.4.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 7.4
+[00:00:08] Successfully started process 'Gradle build daemon'
+[00:00:08] 
+[00:00:08] 
+[00:00:10] > Starting DaemonAn attempt to start the daemon took 1.932 secs.
+[00:00:10] 
+[00:00:10] > IDLEThe client will now receive all logging from the daemon (pid: 6888). The daemon log file: /home/appveyor/.gradle/daemon/7.4/daemon-6888.out.log
+[00:00:10] Starting build in new daemon [memory: 512 MiB]
+[00:00:10] Closing daemon's stdin at end of input.
+[00:00:10] The daemon will no longer process any standard input.
+[00:00:10] 
+[00:00:10] 
+[00:00:10] > IDLEUsing 2 worker leases.
+[00:00:10] 
+[00:00:11] > IDLE<-------------> 0% INITIALIZING [24ms]<-------------> 0% INITIALIZING [125ms]<-------------> 0% INITIALIZING [225ms]<-------------> 0% INITIALIZING [324ms]<-------------> 0% INITIALIZING [425ms]<-------------> 0% INITIALIZING [525ms]<-------------> 0% INITIALIZING [624ms]<-------------> 0% INITIALIZING [724ms]<-------------> 0% INITIALIZING [824ms]Watching the file system is configured to be enabled if available
+[00:00:11] 
+[00:00:12] <-------------> 0% INITIALIZING [924ms]> IDLENow considering [/home/appveyor/projects/gradle1-3-postmanecho] as hierarchies to watch
+[00:00:12] File system watching is active
+[00:00:12] 
+[00:00:12] 
+[00:00:13] <-------------> 0% INITIALIZING [1s]> Evaluating settings<-------------> 0% INITIALIZING [2s]Starting Build
+[00:00:13] 
+[00:00:13] <-------------> 0% INITIALIZING [2s]> Evaluating settingsCompiling settings file '/home/appveyor/projects/gradle1-3-postmanecho/settings.gradle' using SubsetScriptTransformer.
+[00:00:13] 
+[00:00:14] <-------------> 0% INITIALIZING [2s]> Evaluating settings > Compiling settings file 'settings.gradle'<-------------> 0% INITIALIZING [3s]> Evaluating settingsCompiling settings file '/home/appveyor/projects/gradle1-3-postmanecho/settings.gradle' using BuildScriptTransformer.
+[00:00:14] 
+[00:00:14] <-------------> 0% INITIALIZING [3s]> Evaluating settings > Compiling settings file 'settings.gradle'> Evaluating settingsSettings evaluated using settings file '/home/appveyor/projects/gradle1-3-postmanecho/settings.gradle'.
+[00:00:14] 
+[00:00:14] <-------------> 0% CONFIGURING [3s]> Loading projectsProjects loaded. Root project using build file '/home/appveyor/projects/gradle1-3-postmanecho/build.gradle'.
+[00:00:14] Included projects: [root project 'rest1.2']
+[00:00:14] 
+[00:00:14] 
+[00:00:16] <-------------> 0% CONFIGURING [3s]> root project<-------------> 0% CONFIGURING [4s]> root project > Compiling build file 'build.gradle'> root project<-------------> 0% CONFIGURING [5s]> root project > Compiling build file 'build.gradle'> root project
+[00:00:16] > Configure project :
+[00:00:16] Evaluating root project 'rest1.2' using build file '/home/appveyor/projects/gradle1-3-postmanecho/build.gradle'.
+[00:00:16] Compiling build file '/home/appveyor/projects/gradle1-3-postmanecho/build.gradle' using SubsetScriptTransformer.
+[00:00:16] Compiling build file '/home/appveyor/projects/gradle1-3-postmanecho/build.gradle' using BuildScriptTransformer.
+[00:00:16] All projects evaluated.
+[00:00:16] Selected primary task 'test' from project :
+[00:00:16] 
+[00:00:16] 
+[00:00:17] <=============> 100% CONFIGURING [5s]> IDLE<=============> 100% CONFIGURING [6s]Tasks to be executed: [task ':compileJava', task ':processResources', task ':classes', task ':compileTestJava', task ':processTestResources', task ':testClasses', task ':test']
+[00:00:17] Tasks that were excluded: []
+[00:00:17] 
+[00:00:17] 
+[00:00:17] <-------------> 0% EXECUTING [6s]> IDLE:compileJava (Thread[included builds,5,main]) started.
+[00:00:17] 
+[00:00:17] <-------------> 0% EXECUTING [6s]> :compileJava
+[00:00:17] > Task :compileJava NO-SOURCE
+[00:00:17] Watching 1 directories to track changes
+[00:00:17] Skipping task ':compileJava' as it has no source files and no previous output files.
+[00:00:17] :compileJava (Thread[included builds,5,main]) completed. Took 0.109 secs.
+[00:00:17] :processResources (Thread[included builds,5,main]) started.
+[00:00:17] 
+[00:00:17] > Task :processResources NO-SOURCE
+[00:00:17] Watching 1 directories to track changes
+[00:00:17] Skipping task ':processResources' as it has no source files and no previous output files.
+[00:00:17] :processResources (Thread[included builds,5,main]) completed. Took 0.008 secs.
+[00:00:17] :classes (Thread[Execution worker for ':',5,main]) started.
+[00:00:17] 
+[00:00:17] > Task :classes UP-TO-DATE
+[00:00:17] Skipping task ':classes' as it has no actions.
+[00:00:17] :classes (Thread[Execution worker for ':',5,main]) completed. Took 0.004 secs.
+[00:00:17] :compileTestJava (Thread[Execution worker for ':',5,main]) started.
+[00:00:17] 
+[00:00:17] 
+[00:00:17] <=====--------> 42% EXECUTING [6s]> :compileTestJava> :compileTestJava > Resolve dependencies of :testCompileClasspath
+[00:00:19] > :compileTestJava > Resolve dependencies of :testCompileClasspath > rest-assured-4.3.0.pom> :compileTestJava > Resolve dependencies of :testCompileClasspath > junit-jupiter-5.6.1.pom<=====--------> 42% EXECUTING [7s]> :compileTestJava > Resolve dependencies of :testCompileClasspath> IDLE> :compileTestJava > Resolve dependencies of :testCompileClasspath > junit-bom-5.6.1.pom> :compileTestJava > Resolve dependencies of :testCompileClasspath > oss-parent-5.pom> :compileTestJava > Resolve dependencies of :testCompileClasspath > junit-bom-5.6.1.module> IDLE> :compileTestJava > Resolve dependencies of :testCompileClasspath<=====--------> 42% EXECUTING [8s]> :compileTestJava > Resolve dependencies of :testCompileClasspath > junit-jupiter-5.6.1.module > 4 KiB/4.8 KiB downloaded> :compileTestJava > Resolve dependencies of :testCompileClasspath > modules-4.3.1.pom> :compileTestJava > Resolve dependencies of :testCompileClasspath > rest-assured-parent-4.3.1.pom > 15.4 KiB/17.9 KiB downloaded> :compileTestJava > Resolve dependencies of :testCompileClasspath
+[00:00:19] > Task :compileTestJava
+[00:00:19] Watching 4 directories to track changes
+[00:00:19] Watching 5 directories to track changes
+[00:00:19] Watching 6 directories to track changes
+[00:00:19] Watching 6 directories to track changes
+[00:00:19] Watching 6 directories to track changes
+[00:00:19] Watching 6 directories to track changes
+[00:00:19] Watching 6 directories to track changes
+[00:00:19] Watching 6 directories to track changes
+[00:00:19] Watching 6 directories to track changes
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured/4.3.0/rest-assured-4.3.0.pom to /home/appveyor/.gradle/.tmp/gradle_download15200547637198677309bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.6.1/junit-jupiter-5.6.1.pom to /home/appveyor/.gradle/.tmp/gradle_download6795481414488110308bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.6.1/junit-bom-5.6.1.pom to /home/appveyor/.gradle/.tmp/gradle_download1629615352996458208bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured-parent/4.3.0/rest-assured-parent-4.3.0.pom to /home/appveyor/.gradle/.tmp/gradle_download15929646489474917841bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/5/oss-parent-5.pom to /home/appveyor/.gradle/.tmp/gradle_download2707278380111495851bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.6.1/junit-bom-5.6.1.module to /home/appveyor/.gradle/.tmp/gradle_download1538566861591651950bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.6.1/junit-jupiter-5.6.1.module to /home/appveyor/.gradle/.tmp/gradle_download18088008540026707509bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/io/rest-assured/json-schema-validator/4.3.1/json-schema-validator-4.3.1.pom to /home/appveyor/.gradle/.tmp/gradle_download16548434788853690472bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/io/rest-assured/modules/4.3.1/modules-4.3.1.pom to /home/appveyor/.gradle/.tmp/gradle_download14058599809547055311bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured-parent/4.3.1/rest-assured-parent-4.3.1.pom to /home/appveyor/.gradle/.tmp/gradle_download13757829031648882283bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-xml/3.0.2/groovy-xml-3.0.2.pom to /home/appveyor/.gradle/.tmp/gradle_download5655359961713292336bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/3.0.2/groovy-3.0.2.pom to /home/appveyor/.gradle/.tmp/gradle_download583480331161342553bin
+[00:00:19] 
+[00:00:19] 
+[00:00:19] 
+[00:00:19] <=====--------> 42% EXECUTING [8s]> :compileTestJava > Resolve dependencies of :testCompileClasspath > httpclient-4.5.3.pom> :compileTestJava > Resolve dependencies of :testCompileClasspath > xml-path-4.3.0.pomDownloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.pom to /home/appveyor/.gradle/.tmp/gradle_download4897079830818925480bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/io/rest-assured/xml-path/4.3.0/xml-path-4.3.0.pom to /home/appveyor/.gradle/.tmp/gradle_download18054075846673556633bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.3/httpcomponents-client-4.5.3.pom to /home/appveyor/.gradle/.tmp/gradle_download4982015715517930009bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/io/rest-assured/json-path/4.3.0/json-path-4.3.0.pom to /home/appveyor/.gradle/.tmp/gradle_download10487772037371636928bin
+[00:00:19] 
+[00:00:19] 
+[00:00:19] 
+[00:00:19] <=====--------> 42% EXECUTING [8s]> IDLE> :compileTestJava > Resolve dependencies of :testCompileClasspathDownloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/7/project-7.pom to /home/appveyor/.gradle/.tmp/gradle_download12013030637220352072bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.pom to /home/appveyor/.gradle/.tmp/gradle_download58423868350350024bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom to /home/appveyor/.gradle/.tmp/gradle_download16606984951107932802bin
+[00:00:19] 
+[00:00:19] 
+[00:00:19] 
+[00:00:19] <=====--------> 42% EXECUTING [8s]> IDLE> :compileTestJava > Resolve dependencies of :testCompileClasspath> :compileTestJava > Resolve dependencies of :testCompileClasspath > tagsoup-1.2.1.pomDownloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.1/hamcrest-2.1.pom to /home/appveyor/.gradle/.tmp/gradle_download9493233530558523531bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.pom to /home/appveyor/.gradle/.tmp/gradle_download16778536937122639780bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.6.1/junit-jupiter-params-5.6.1.pom to /home/appveyor/.gradle/.tmp/gradle_download11402889021237338517bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.6.1/junit-jupiter-api-5.6.1.pom to /home/appveyor/.gradle/.tmp/gradle_download2717996516467047795bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.6.1/junit-jupiter-params-5.6.1.module to /home/appveyor/.gradle/.tmp/gradle_download3537748042243431110bin
+[00:00:19] 
+[00:00:19] 
+[00:00:19] 
+[00:00:19] <=====--------> 42% EXECUTING [8s]> IDLE> :compileTestJava > Resolve dependencies of :testCompileClasspath > junit-jupiter-params-5.6.1.module > 4.9 KiB/4.9 KiB downloadedDownloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.6.1/junit-jupiter-api-5.6.1.module to /home/appveyor/.gradle/.tmp/gradle_download9264842599591551850bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/com/github/java-json-tools/json-schema-validator/2.2.10/json-schema-validator-2.2.10.pom to /home/appveyor/.gradle/.tmp/gradle_download14348211674284945983bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.pom to /home/appveyor/.gradle/.tmp/gradle_download1888114064083488698bin
+[00:00:19] Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom to /home/appveyor/.gradle/.tmp/gradle_download3542724107783632237bin
+[00:00:19] 
+[00:00:19] 
+[00:00:19] 
+[00:00:20] <=====--------> 42% EXECUTING [8s]> :compileTestJava > Resolve dependencies of :testCompileClasspath > httpcomponents-core-4.4.6.pom> :compileTestJava > Resolve dependencies of :testCompileClasspath > commons-logging-1.2.pomDownloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.6/httpcomponents-core-4.4.6.pom to /home/appveyor/.gradle/.tmp/gradle_download15307344284953606861bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom to /home/appveyor/.gradle/.tmp/gradle_download16980097581901216410bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom to /home/appveyor/.gradle/.tmp/gradle_download1828835444960341029bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/32/commons-parent-32.pom to /home/appveyor/.gradle/.tmp/gradle_download14204708663602445631bin
+[00:00:20] 
+[00:00:20] 
+[00:00:20] 
+[00:00:20] <=====--------> 42% EXECUTING [9s]> :compileTestJava > Resolve dependencies of :testCompileClasspath> IDLEDownloading https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-json/3.0.2/groovy-json-3.0.2.pom to /home/appveyor/.gradle/.tmp/gradle_download4386109145112736340bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured-common/4.3.0/rest-assured-common-4.3.0.pom to /home/appveyor/.gradle/.tmp/gradle_download8212646546481295184bin
+[00:00:20] 
+[00:00:20] 
+[00:00:20] <=====--------> 42% EXECUTING [9s]> :compileTestJava > Resolve dependencies of :testCompileClasspath> IDLEDownloading https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.pom to /home/appveyor/.gradle/.tmp/gradle_download3603211006185496731bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom to /home/appveyor/.gradle/.tmp/gradle_download10688901233312709759bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api-parent/2.3.2/jakarta.xml.bind-api-parent-2.3.2.pom to /home/appveyor/.gradle/.tmp/gradle_download1378764157431169006bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/org/eclipse/ee4j/project/1.0.5/project-1.0.5.pom to /home/appveyor/.gradle/.tmp/gradle_download17045936654582140001bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.pom to /home/appveyor/.gradle/.tmp/gradle_download9641957900342818996bin
+[00:00:20] 
+[00:00:20] 
+[00:00:20] 
+[00:00:20] <=====--------> 42% EXECUTING [9s]> :compileTestJava > Resolve dependencies of :testCompileClasspath > commons-parent-37.pom > 40 KiB/61.5 KiB downloaded> IDLEDownloading https://repo.maven.apache.org/maven2/org/apache/apache/16/apache-16.pom to /home/appveyor/.gradle/.tmp/gradle_download15703361673852203679bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.pom to /home/appveyor/.gradle/.tmp/gradle_download11688513629285300174bin
+[00:00:20] 
+[00:00:20] 
+[00:00:20] <=====--------> 42% EXECUTING [9s]> :compileTestJava > Resolve dependencies of :testCompileClasspath > sling-15.pom> IDLEDownloading https://repo.maven.apache.org/maven2/org/apache/sling/sling/15/sling-15.pom to /home/appveyor/.gradle/.tmp/gradle_download1487796390643570360bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.pom to /home/appveyor/.gradle/.tmp/gradle_download8784427082538643360bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.pom to /home/appveyor/.gradle/.tmp/gradle_download13653998293266957995bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-bundles/2.3.0.1/jaxb-bundles-2.3.0.1.pom to /home/appveyor/.gradle/.tmp/gradle_download16252128555014043150bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/org/apache/apache/12/apache-12.pom to /home/appveyor/.gradle/.tmp/gradle_download11398595323870714950bin
+[00:00:20] 
+[00:00:20] 
+[00:00:20] 
+[00:00:20] <=====--------> 42% EXECUTING [9s]> :compileTestJava > Resolve dependencies of :testCompileClasspath > jaxb-parent-2.3.0.1.pom> IDLEDownloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/2.3.0.1/jaxb-parent-2.3.0.1.pom to /home/appveyor/.gradle/.tmp/gradle_download7166363156641472386bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/2.3.0.1/jaxb-bom-ext-2.3.0.1.pom to /home/appveyor/.gradle/.tmp/gradle_download17503851920629809075bin
+[00:00:20] 
+[00:00:20] 
+[00:00:20] <=====--------> 42% EXECUTING [9s]> :compileTestJava > Resolve dependencies of :testCompileClasspath > jaxb-bom-2.3.0.1.pom> IDLEDownloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-bom/2.3.0.1/jaxb-bom-2.3.0.1.pom to /home/appveyor/.gradle/.tmp/gradle_download16307453469136109387bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/net/java/jvnet-parent/5/jvnet-parent-5.pom to /home/appveyor/.gradle/.tmp/gradle_download18442904351505412650bin
+[00:00:20] 
+[00:00:20] 
+[00:00:20] <=====--------> 42% EXECUTING [9s]> :compileTestJava > Resolve dependencies of :testCompileClasspath> IDLE> :compileTestJava > Resolve dependencies of :testCompileClasspath > apiguardian-api-1.1.0.pom> :compileTestJava > Resolve dependencies of :testCompileClasspath > opentest4j-1.2.0.pomDownloading https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.pom to /home/appveyor/.gradle/.tmp/gradle_download16225127738512076016bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom to /home/appveyor/.gradle/.tmp/gradle_download16527215740960057218bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.6.1/junit-platform-commons-1.6.1.pom to /home/appveyor/.gradle/.tmp/gradle_download2654947674006790477bin
+[00:00:20] 
+[00:00:20] 
+[00:00:20] 
+[00:00:20] <=====--------> 42% EXECUTING [9s]> IDLE> :compileTestJava > Resolve dependencies of :testCompileClasspath > junit-platform-commons-1.6.1.moduleDownloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.6.1/junit-platform-commons-1.6.1.module to /home/appveyor/.gradle/.tmp/gradle_download8544478935637148635bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/javax/mail/mailapi/1.4.3/mailapi-1.4.3.pom to /home/appveyor/.gradle/.tmp/gradle_download10662799683088993283bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/com/github/java-json-tools/json-schema-core/1.2.10/json-schema-core-1.2.10.pom to /home/appveyor/.gradle/.tmp/gradle_download3259930102918570626bin
+[00:00:20] Downloading https://repo.maven.apache.org/maven2/com/sun/mail/all/1.4.3/all-1.4.3.pom to /home/appveyor/.gradle/.tmp/gradle_download7583144306906822339bin
+[00:00:20] 
+[00:00:20] 
+[00:00:20] 
+[00:00:21] <=====--------> 42% EXECUTING [9s]> :compileTestJava > Resolve dependencies of :testCompileClasspath > joda-time-2.9.7.pom> :compileTestJava > Resolve dependencies of :testCompileClasspath > libphonenumber-8.0.0.pomDownloading https://repo.maven.apache.org/maven2/joda-time/joda-time/2.9.7/joda-time-2.9.7.pom to /home/appveyor/.gradle/.tmp/gradle_download7118577051429460998bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/com/googlecode/libphonenumber/libphonenumber/8.0.0/libphonenumber-8.0.0.pom to /home/appveyor/.gradle/.tmp/gradle_download4360847705654453995bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom to /home/appveyor/.gradle/.tmp/gradle_download12303900118761865352bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/com/googlecode/libphonenumber/libphonenumber-parent/8.0.0/libphonenumber-parent-8.0.0.pom to /home/appveyor/.gradle/.tmp/gradle_download5669069283453791573bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom to /home/appveyor/.gradle/.tmp/gradle_download9127905589769913601bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.pom to /home/appveyor/.gradle/.tmp/gradle_download3146264755156665136bin
+[00:00:21] 
+[00:00:21] 
+[00:00:21] 
+[00:00:21] <=====--------> 42% EXECUTING [10s]> IDLE> :compileTestJava > Resolve dependencies of :testCompileClasspath > jakarta.activation-api-1.2.1.pomDownloading https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.pom to /home/appveyor/.gradle/.tmp/gradle_download5018609705063337898bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/com/sun/activation/all/1.2.1/all-1.2.1.pom to /home/appveyor/.gradle/.tmp/gradle_download14818594353686411364bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/org/eclipse/ee4j/project/1.0.2/project-1.0.2.pom to /home/appveyor/.gradle/.tmp/gradle_download17490800864308710229bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1.pom to /home/appveyor/.gradle/.tmp/gradle_download13448806020439289955bin
+[00:00:21] 
+[00:00:21] 
+[00:00:21] 
+[00:00:21] <=====--------> 42% EXECUTING [10s]> IDLE> :compileTestJava > Resolve dependencies of :testCompileClasspathDownloading https://repo.maven.apache.org/maven2/com/github/java-json-tools/jackson-coreutils/1.9/jackson-coreutils-1.9.pom to /home/appveyor/.gradle/.tmp/gradle_download478887753223650113bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/com/github/fge/uri-template/0.9/uri-template-0.9.pom to /home/appveyor/.gradle/.tmp/gradle_download10780414160167238419bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/org/mozilla/rhino/1.7.7.1/rhino-1.7.7.1.pom to /home/appveyor/.gradle/.tmp/gradle_download8788931936074249957bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.pom to /home/appveyor/.gradle/.tmp/gradle_download2833877806671927299bin
+[00:00:21] 
+[00:00:21] 
+[00:00:21] 
+[00:00:21] <=====--------> 42% EXECUTING [10s]> :compileTestJava > Resolve dependencies of :testCompileClasspath > oss-parent-11.pom> :compileTestJava > Resolve dependencies of :testCompileClasspath > guava-16.0.1.pomDownloading https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.pom to /home/appveyor/.gradle/.tmp/gradle_download5751483016520189247bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/11/oss-parent-11.pom to /home/appveyor/.gradle/.tmp/gradle_download1697681140769665025bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/com/github/fge/msg-simple/1.1/msg-simple-1.1.pom to /home/appveyor/.gradle/.tmp/gradle_download12546528905249964802bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/16.0.1/guava-parent-16.0.1.pom to /home/appveyor/.gradle/.tmp/gradle_download5349361294264886024bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.3/jackson-core-2.2.3.pom to /home/appveyor/.gradle/.tmp/gradle_download14697248193485967183bin
+[00:00:21] 
+[00:00:21] 
+[00:00:21] 
+[00:00:21] <=====--------> 42% EXECUTING [10s]> :compileTestJava > Resolve dependencies of :testCompileClasspath > jackson-annotations-2.2.3.pom> :compileTestJava > Resolve dependencies of :testCompileClasspath > oss-parent-10.pomDownloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/10/oss-parent-10.pom to /home/appveyor/.gradle/.tmp/gradle_download10839404570237338369bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.pom to /home/appveyor/.gradle/.tmp/gradle_download4065964176238981024bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/com/github/fge/btf/1.2/btf-1.2.pom to /home/appveyor/.gradle/.tmp/gradle_download2246866666508144596bin
+[00:00:21] 
+[00:00:21] 
+[00:00:21] 
+[00:00:21] <=====--------> 42% EXECUTING [10s]> :compileTestJava > Resolve dependencies of :testCompileClasspath> IDLEDownloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar to /home/appveyor/.gradle/.tmp/gradle_download6348423430643273837bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured/4.3.0/rest-assured-4.3.0.jar to /home/appveyor/.gradle/.tmp/gradle_download6863513995284217963bin
+[00:00:21] 
+[00:00:21] 
+[00:00:21] <=====--------> 42% EXECUTING [10s]> :compileTestJava > Resolve files of :testCompileClasspath > rest-assured-4.3.0.jar > 31.4 KiB/683 KiB downloaded> :compileTestJava > Resolve files of :testCompileClasspath > commons-lang3-3.4.jar > 240 KiB/424.4 KiB downloadedDownloading https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar to /home/appveyor/.gradle/.tmp/gradle_download17954463968120168330bin
+[00:00:21] 
+[00:00:21] <=====--------> 42% EXECUTING [10s]> :compileTestJava > Resolve files of :testCompileClasspath > rest-assured-4.3.0.jar > 504.5 KiB/683 KiB downloaded> :compileTestJava > Resolve files of :testCompileClasspath > jakarta.xml.bind-api-2.3.2.jar > 55.4 KiB/112.7 KiB downloadedDownloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar to /home/appveyor/.gradle/.tmp/gradle_download15580307948918670521bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar to /home/appveyor/.gradle/.tmp/gradle_download12139860108179247615bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar to /home/appveyor/.gradle/.tmp/gradle_download3920267634846211667bin
+[00:00:21] 
+[00:00:21] 
+[00:00:21] 
+[00:00:21] <=====--------> 42% EXECUTING [10s]> :compileTestJava > Resolve files of :testCompileClasspath > opentest4j-1.2.0.jar> :compileTestJava > Resolve files of :testCompileClasspath > jaxb-osgi-2.3.0.1.jar > 1.3 MiB/3.4 MiB downloadedDownloading https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar to /home/appveyor/.gradle/.tmp/gradle_download6704814327801450966bin
+[00:00:21] Downloading https://repo.maven.apache.org/maven2/com/github/java-json-tools/json-schema-core/1.2.10/json-schema-core-1.2.10.jar to /home/appveyor/.gradle/.tmp/gradle_download8320483639659263632bin
+[00:00:21] 
+[00:00:21] 
+[00:00:21] <=====--------> 42% EXECUTING [10s]> :compileTestJava > Resolve files of :testCompileClasspath > json-schema-core-1.2.10.jar > 79.4 KiB/170 KiB downloaded> :compileTestJava > Resolve files of :testCompileClasspath > jaxb-osgi-2.3.0.1.jar > 2 MiB/3.4 MiB downloadedDownloading https://repo.maven.apache.org/maven2/javax/mail/mailapi/1.4.3/mailapi-1.4.3.jar to /home/appveyor/.gradle/.tmp/gradle_download1386113481231231664bin
+[00:00:21] 
+[00:00:22] <=====--------> 42% EXECUTING [10s]> IDLE> :compileTestJava > Resolve files of :testCompileClasspath > jaxb-osgi-2.3.0.1.jar > 3.1 MiB/3.4 MiB downloadedDownloading https://repo.maven.apache.org/maven2/joda-time/joda-time/2.9.7/joda-time-2.9.7.jar to /home/appveyor/.gradle/.tmp/gradle_download5928992978518974891bin
+[00:00:22] 
+[00:00:22] <=====--------> 42% EXECUTING [11s]> :compileTestJava > Resolve files of :testCompileClasspath > joda-time-2.9.7.jar > 313.8 KiB/618.4 KiB downloaded> IDLEDownloading https://repo.maven.apache.org/maven2/com/github/java-json-tools/jackson-coreutils/1.9/jackson-coreutils-1.9.jar to /home/appveyor/.gradle/.tmp/gradle_download3914077014676062915bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/com/github/fge/uri-template/0.9/uri-template-0.9.jar to /home/appveyor/.gradle/.tmp/gradle_download2131309843433006479bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/com/googlecode/libphonenumber/libphonenumber/8.0.0/libphonenumber-8.0.0.jar to /home/appveyor/.gradle/.tmp/gradle_download18065962912659419247bin
+[00:00:22] 
+[00:00:22] 
+[00:00:22] 
+[00:00:22] <=====--------> 42% EXECUTING [11s]> :compileTestJava > Resolve files of :testCompileClasspath > libphonenumber-8.0.0.jar > 215.4 KiB/319.2 KiB downloaded> IDLEDownloading https://repo.maven.apache.org/maven2/com/github/fge/msg-simple/1.1/msg-simple-1.1.jar to /home/appveyor/.gradle/.tmp/gradle_download2796292709564000931bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/com/github/fge/btf/1.2/btf-1.2.jar to /home/appveyor/.gradle/.tmp/gradle_download12255422801872083761bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar to /home/appveyor/.gradle/.tmp/gradle_download11964398824606803930bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar to /home/appveyor/.gradle/.tmp/gradle_download12958744036170715762bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar to /home/appveyor/.gradle/.tmp/gradle_download14205285615898926876bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1.jar to /home/appveyor/.gradle/.tmp/gradle_download4565110621941213968bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/org/mozilla/rhino/1.7.7.1/rhino-1.7.7.1.jar to /home/appveyor/.gradle/.tmp/gradle_download14905516936508839876bin
+[00:00:22] 
+[00:00:22] 
+[00:00:22] 
+[00:00:22] <=====--------> 42% EXECUTING [11s]> :compileTestJava > Resolve files of :testCompileClasspath > rhino-1.7.7.1.jar > 304 KiB/1.1 MiB downloaded> :compileTestJava > Resolve files of :testCompileClasspath > jackson-databind-2.2.3.jarDownloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar to /home/appveyor/.gradle/.tmp/gradle_download1705595966609707583bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.jar to /home/appveyor/.gradle/.tmp/gradle_download17924648989482563012bin
+[00:00:22] 
+[00:00:22] 
+[00:00:22] <=====--------> 42% EXECUTING [11s]> :compileTestJava > Resolve files of :testCompileClasspath > guava-16.0.1.jar > 600.5 KiB/2.1 MiB downloaded> :compileTestJava > Resolve files of :testCompileClasspath > jackson-annotations-2.2.3.jarDownloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar to /home/appveyor/.gradle/.tmp/gradle_download6928685415500846147bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.3/jackson-core-2.2.3.jar to /home/appveyor/.gradle/.tmp/gradle_download2768448749487550245bin
+[00:00:22] 
+[00:00:22] 
+[00:00:22] <=====--------> 42% EXECUTING [11s]> IDLE> :compileTestJava > Resolve files of :testCompileClasspath > commons-codec-1.9.jarDownloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.jar to /home/appveyor/.gradle/.tmp/gradle_download3959605462909119710bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar to /home/appveyor/.gradle/.tmp/gradle_download13507963266912553778bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.6.1/junit-jupiter-api-5.6.1.jar to /home/appveyor/.gradle/.tmp/gradle_download4800656512582878890bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.6.1/junit-jupiter-params-5.6.1.jar to /home/appveyor/.gradle/.tmp/gradle_download17452710624840058603bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar to /home/appveyor/.gradle/.tmp/gradle_download2051221550608025892bin
+[00:00:22] 
+[00:00:22] 
+[00:00:22] 
+[00:00:22] <=====--------> 42% EXECUTING [11s]> IDLE> :compileTestJava > Resolve files of :testCompileClasspath > httpcore-4.4.6.jar > 120 KiB/316.2 KiB downloadedDownloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.6.1/junit-platform-commons-1.6.1.jar to /home/appveyor/.gradle/.tmp/gradle_download9227959214424330699bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/io/rest-assured/json-schema-validator/4.3.1/json-schema-validator-4.3.1.jar to /home/appveyor/.gradle/.tmp/gradle_download18443819936112217149bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.6.1/junit-jupiter-5.6.1.jar to /home/appveyor/.gradle/.tmp/gradle_download5834809383991512842bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/com/github/java-json-tools/json-schema-validator/2.2.10/json-schema-validator-2.2.10.jar to /home/appveyor/.gradle/.tmp/gradle_download16854187993591903898bin
+[00:00:22] 
+[00:00:22] 
+[00:00:22] 
+[00:00:22] <=====--------> 42% EXECUTING [11s]> :compileTestJava > Resolve files of :testCompileClasspath > groovy-xml-3.0.2.jar> :compileTestJava > Resolve files of :testCompileClasspath > xml-path-4.3.0.jarDownloading https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-xml/3.0.2/groovy-xml-3.0.2.jar to /home/appveyor/.gradle/.tmp/gradle_download2026230123202041154bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/io/rest-assured/xml-path/4.3.0/xml-path-4.3.0.jar to /home/appveyor/.gradle/.tmp/gradle_download1476646409059744697bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/io/rest-assured/json-path/4.3.0/json-path-4.3.0.jar to /home/appveyor/.gradle/.tmp/gradle_download5098274942803690664bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar to /home/appveyor/.gradle/.tmp/gradle_download9973425131830525316bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar to /home/appveyor/.gradle/.tmp/gradle_download15099650430106150324bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar to /home/appveyor/.gradle/.tmp/gradle_download3930499127474903290bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-json/3.0.2/groovy-json-3.0.2.jar to /home/appveyor/.gradle/.tmp/gradle_download2142424768460031687bin
+[00:00:22] 
+[00:00:22] 
+[00:00:22] 
+[00:00:22] <=====--------> 42% EXECUTING [11s]> :compileTestJava > Resolve files of :testCompileClasspath > httpclient-4.5.3.jar > 191.4 KiB/730.2 KiB downloaded> :compileTestJava > Resolve files of :testCompileClasspath > rest-assured-common-4.3.0.jarDownloading https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured-common/4.3.0/rest-assured-common-4.3.0.jar to /home/appveyor/.gradle/.tmp/gradle_download8719755105129953512bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar to /home/appveyor/.gradle/.tmp/gradle_download15755899285795862719bin
+[00:00:22] Downloading https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/3.0.2/groovy-3.0.2.jar to /home/appveyor/.gradle/.tmp/gradle_download9390653128230434459bin
+[00:00:22] 
+[00:00:22] 
+[00:00:22] 
+[00:00:26] <=====--------> 42% EXECUTING [11s]> IDLE> :compileTestJava > Resolve files of :testCompileClasspath > groovy-3.0.2.jar > 760.7 KiB/7.5 MiB downloaded> :compileTestJava > Resolve files of :testCompileClasspath > groovy-3.0.2.jar > 2.6 MiB/7.5 MiB downloaded<=====--------> 42% EXECUTING [12s]> :compileTestJava > Resolve files of :testCompileClasspath > groovy-3.0.2.jar > 4.4 MiB/7.5 MiB downloaded> :compileTestJava > Resolve files of :testCompileClasspath > groovy-3.0.2.jar > 6.4 MiB/7.5 MiB downloaded> :compileTestJava > Resolve files of :testCompileClasspath> :compileTestJava<=====--------> 42% EXECUTING [13s]<=====--------> 42% EXECUTING [14s]<=====--------> 42% EXECUTING [15s]Caching disabled for task ':compileTestJava' because:
+[00:00:26]   Build cache is disabled
+[00:00:26] Task ':compileTestJava' is not up-to-date because:
+[00:00:26]   No history is available.
+[00:00:26] Watching 6 directories to track changes
+[00:00:26] Watching 6 directories to track changes
+[00:00:26] Watching 6 directories to track changes
+[00:00:26] Watching 6 directories to track changes
+[00:00:26] 
+[00:00:26] Watching 6 directories to track changes
+[00:00:26] 
+[00:00:26] 
+[00:00:26] 
+[00:00:28] <=====--------> 42% EXECUTING [15s]> IDLE> :compileTestJava<=====--------> 42% EXECUTING [16s]<=====--------> 42% EXECUTING [17s]
+[00:00:28] > Task :compileTestJava
+[00:00:28] The input changes require a full rebuild for incremental task ':compileTestJava'.
+[00:00:28] Full recompilation is required because no incremental change information is available. This is usually caused by clean builds or changing compiler arguments.
+[00:00:28] Compiling with toolchain '/usr/lib/jvm/java-11-openjdk-amd64'.
+[00:00:28] Compiling with JDK Java compiler API.
+[00:00:28] Class dependency analysis for incremental compilation took 0.034 secs.
+[00:00:28] 
+[00:00:28] 
+[00:00:28] 
+[00:00:34] <=====--------> 42% EXECUTING [17s]> IDLE> :compileTestJava<=====--------> 42% EXECUTING [18s]<=====--------> 42% EXECUTING [19s]<=====--------> 42% EXECUTING [20s]<=====--------> 42% EXECUTING [21s]<=====--------> 42% EXECUTING [22s]<=====--------> 42% EXECUTING [23s]Created classpath snapshot for incremental compilation in 6.897 secs.
+[00:00:34] Watching 9 directories to track changes
+[00:00:34] Watching 10 directories to track changes
+[00:00:34] Watching 11 directories to track changes
+[00:00:34] Watching 12 directories to track changes
+[00:00:34] :compileTestJava (Thread[Execution worker for ':',5,main]) completed. Took 17.518 secs.
+[00:00:34] :processTestResources (Thread[Execution worker for ':',5,main]) started.
+[00:00:34] 
+[00:00:34] > Task :processTestResources NO-SOURCE
+[00:00:34] Watching 13 directories to track changes
+[00:00:34] Skipping task ':processTestResources' as it has no source files and no previous output files.
+[00:00:34] :processTestResources (Thread[Execution worker for ':',5,main]) completed. Took 0.002 secs.
+[00:00:34] :testClasses (Thread[Execution worker for ':',5,main]) started.
+[00:00:34] 
+[00:00:34] > Task :testClasses
+[00:00:34] Skipping task ':testClasses' as it has no actions.
+[00:00:34] :testClasses (Thread[Execution worker for ':',5,main]) completed. Took 0.0 secs.
+[00:00:34] :test (Thread[Execution worker for ':',5,main]) started.
+[00:00:34] 
+[00:00:34] 
+[00:00:34] 
+[00:00:36] <===========--> 85% EXECUTING [23s]> IDLE> :test > Resolve dependencies of :testRuntimeClasspath<===========--> 85% EXECUTING [24s]> :test > Resolve files of :testRuntimeClasspath > junit-platform-engine-1.6.1.jar > 127.4 KiB/170 KiB downloaded> :test<===========--> 85% EXECUTING [25s]> :test > 0 tests completed
+[00:00:36] > Task :test
+[00:00:36] Watching 14 directories to track changes
+[00:00:36] Watching 14 directories to track changes
+[00:00:36] Watching 14 directories to track changes
+[00:00:36] Watching 15 directories to track changes
+[00:00:36] Watching 15 directories to track changes
+[00:00:36] Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.6.1/junit-jupiter-engine-5.6.1.pom to /home/appveyor/.gradle/.tmp/gradle_download12196285753576578707bin
+[00:00:36] Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.6.1/junit-jupiter-engine-5.6.1.module to /home/appveyor/.gradle/.tmp/gradle_download5970346025753487723bin
+[00:00:36] Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.6.1/junit-platform-engine-1.6.1.pom to /home/appveyor/.gradle/.tmp/gradle_download2913091635470438592bin
+[00:00:36] Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.6.1/junit-platform-engine-1.6.1.module to /home/appveyor/.gradle/.tmp/gradle_download8966250774541894881bin
+[00:00:36] Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.6.1/junit-jupiter-engine-5.6.1.jar to /home/appveyor/.gradle/.tmp/gradle_download17609789970880547726bin
+[00:00:36] Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.6.1/junit-platform-engine-1.6.1.jar to /home/appveyor/.gradle/.tmp/gradle_download11178436558527330816bin
+[00:00:36] Caching disabled for task ':test' because:
+[00:00:36]   Build cache is disabled
+[00:00:36] Task ':test' is not up-to-date because:
+[00:00:36]   No history is available.
+[00:00:36] Watching 15 directories to track changes
+[00:00:36] Watching 15 directories to track changes
+[00:00:36] Starting process 'Gradle Test Executor 1'. Working directory: /home/appveyor/projects/gradle1-3-postmanecho Command: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Dorg.gradle.internal.worker.tmpdir=/home/appveyor/projects/gradle1-3-postmanecho/build/tmp/test/work -Dorg.gradle.native=false @/home/appveyor/.gradle/.tmp/gradle-worker-classpath11430141715602972403txt -Xmx512m -Dfile.encoding=UTF-8 -Duser.country -Duser.language=en -Duser.variant -ea worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1'
+[00:00:36] 
+[00:00:36] 
+[00:00:36] 
+[00:00:37] <===========--> 85% EXECUTING [25s]> IDLE> :test > 0 tests completedSuccessfully started process 'Gradle Test Executor 1'
+[00:00:37] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+[00:00:37] 
+[00:00:37] 
+[00:00:38] <===========--> 85% EXECUTING [26s]> IDLE> :test > 0 tests completed
+[00:00:38] Gradle Test Executor 1 started executing tests.
+[00:00:38] 
+[00:00:38] 
+[00:00:42] <===========--> 85% EXECUTING [27s]> IDLE> :test > 0 tests completed> :test > Executing test ru.netology.PostmanEchoTest<===========--> 85% EXECUTING [28s]<===========--> 85% EXECUTING [29s]<===========--> 85% EXECUTING [30s]<===========--> 85% EXECUTING [31s]Gradle Test Executor 1 finished executing tests.
+[00:00:42] 
+[00:00:42] > Task :test
+[00:00:42] Finished generating test XML results (0.016 secs) into: /home/appveyor/projects/gradle1-3-postmanecho/build/test-results/test
+[00:00:42] Generating HTML test report...
+[00:00:42] 
+[00:00:42] 
+[00:00:42] 
+[00:00:42] <===========--> 85% EXECUTING [31s]> IDLE> :testFinished generating test html results (0.034 secs) into: /home/appveyor/projects/gradle1-3-postmanecho/build/reports/tests/test
+[00:00:42] Watching 16 directories to track changes
+[00:00:42] Watching 21 directories to track changes
+[00:00:42] Watching 22 directories to track changes
+[00:00:42] :test (Thread[Execution worker for ':',5,main]) completed. Took 7.744 secs.
+[00:00:42] producer locations for task group 0 (Thread[included builds,5,main]) started.
+[00:00:42] producer locations for task group 0 (Thread[included builds,5,main]) completed. Took 0.0 secs.
+[00:00:42] 
+[00:00:42] BUILD SUCCESSFUL in 40s
+[00:00:42] 2 actionable tasks: 2 executed
+[00:00:42] 
+[00:00:42] 
+[00:00:42] 
+[00:00:43] <-------------> 0% WAITING> IDLE> IDLERunning "test" phase
